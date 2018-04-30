@@ -1,0 +1,173 @@
+#Declaring objects with css and xpath locators
+@objects
+	aam-logo						                css		[id*='uxMenu__'][id*='_AAMImage2']
+	
+	#header objects
+	header-links-*					                css		div>div[id*='uxMenu__']>a
+	header-texts-*					                css		[id*='uxMenu__']>a>span
+	header-contact-us-logo			                css		[id*='uxMenu__'][id*='_phoneReceiver']
+	header-dist-services-logo		                css		[id*='uxMenu__'][id*='_icon']
+	header-login-logo				                css		[id*='uxMenu__'][id*='_user']
+	
+	nav-menu-items-*				                css		.mobile-sub.wsmenu-list>li
+
+	nav-bar-links-texts-*                           css     .staff-name>.staff-first-name
+
+	latest-insights-section-title                   css     p.latestTitle.col-md-12
+	featured-insights-image                         css     .insightsDiv > img
+	featured-insights-image-tag                     css     .featuredDiv
+	market-insights-tag-title                       css     .marketTitle
+	market-insights-date                            css     .marketDate
+	market-insights-post-title                      css     .marketQute>[id*='_uxPostTileField']
+	market-insights-post-author                     css     .marketBy
+	market-insights-post-summary                    css     [id*='_uxPostSummaryField']
+	latest-insights-rightside-imags-*               css     [id*='ContentPlaceHolder']>div>div>img
+	latest-insights-rightside-content-*             css     [id*='ContentPlaceHolder']>div>div>div.content
+	latest-insights-rightside-insight-titletype-*   css     .smMarketTitle>a
+	latest-insights-rightside-insight-date-*        css     .smMarketDate
+	latest-insights-rightside-insight-title-*       css     .smMarketQute>span
+	latest-insights-rightside-insight-author-*      css     .smMarketBy
+	more-stories-button                             css     .btn-moreStories>button
+
+    right-rail-pods-InvestmentSolutions             css     .investDiv.m-b
+    right-rail-pods-video                           css     [id*='ContentPlaceHolder1_']> div.sfContentBlock > div
+    right-rail-pods-brokercheck                     css     [id*='ContentPlaceHolder1_'] > div:nth-child(4)
+    right-rail-pods-OurNewsLetters                  css     [id*='ContentPlaceHolder1_'] > div:nth-child(5)
+
+
+#Declaring common variables
+@set
+	SegoeFont			Segoe UI
+	montlightFont       Montserrat-Light
+	montregularFont     Montserrat-Regular
+
+@script
+    headerMenuItemsText=["Contact Us","Distribution Services", "LOG IN"];
+	mainMenuItemsText=["HOME", "INVESTMENT SOLUTIONS", "PORTFOLIO MONITORING", "EDUCATION", "INSIGHTS", "ABOUT"];
+	navBarItemsText=["UITS", "Mutual Funds", "ETFs", "Managed Accounts", "Structured Products", "Fixed Income","Advisor Dashboard"];
+	
+= Home Page =
+  #This is for Desktop
+   @on desktop
+		#Logo properties
+		aam-logo:
+			#Image comparison with %2 precision ratio
+			height 54px
+			width 164px
+			image file aam-logo.png, error %5
+			
+		#header menu properties	
+		#Each header links must be aligned horizontally to each other
+		@forEach [header-links-*] as item, next as nextItem
+           ${item}:
+               aligned horizontally all ${nextItem}
+			   
+		#header menu text
+		@forEach [header-links-*] as item, index as i
+                   ${item}:
+                       text is "${headerMenuItemsText[i-1]}"
+                       css font-size is "14px"
+                       css font-family contains "${SegoeFont}"
+		header-texts-*:
+			css color is "rgba(0, 0, 0, 1)"
+		
+		#header logos
+		header-contact-us-logo,header-dist-services-logo:
+			height 18px
+			width 18px		
+		header-login-logo:
+			height 24px
+			width 24px
+		
+		#main navigation
+		@forEach [nav-menu-items-*] as item, index as i
+           ${item}:
+               text is "${mainMenuItemsText[i-1]}"
+               css font-size is "14px"
+               css font-family contains "${SegoeFont}"
+        @forEach [nav-menu-items-*] as item, next as nextItem
+                   ${item}:
+                       aligned horizontally all ${nextItem}
+
+		#bar navigation
+		@forEach [nav-bar-links-texts-* ] as item, index as i
+           ${item}:
+               text is "${navBarItemsText[i-1]}"
+               css font-size is "18px"
+               css font-family contains "${SegoeFont}"
+
+        #Latest Insights
+        latest-insights-section-title:
+            text is "LATEST INSIGHTS"
+            css font-size is "22px"
+            css font-family contains "${montlightFont}"
+            css color is "rgba(0, 0, 0, 1)"
+        featured-insights-image:
+            height 287px
+            width 426px
+        featured-insights-image-tag:
+            height 32px
+            css background-color is "rgba(248, 144, 29, 1)"
+        market-insights-tag-title:
+            css font-size is "16px"
+            css font-family contains "${SegoeFont}"
+            css font-weight is "700"
+            css color is "rgba(29, 102, 171, 1)"
+        market-insights-date,market-insights-post-author:
+            css font-size is "16px"
+            css font-family contains "${SegoeFont}"
+            css color is "rgba(136, 136, 136, 1)"
+        market-insights-post-title:
+            css font-size is "18px"
+            css font-family contains "${montregularFont}"
+            css color is "rgba(0, 0, 0, 1)"
+        market-insights-post-summary:
+            css font-size is "16px"
+            css font-family contains "${SegoeFont}"
+        latest-insights-rightside-imags-*:
+            height 114px
+            width 114px
+        @forEach [latest-insights-rightside-imags-*] as item, next as nextItem
+            ${item}:
+                aligned vertically all ${nextItem}
+        latest-insights-rightside-content-*:
+            width 300px
+        @forEach [latest-insights-rightside-content-*] as item, next as nextItem
+            ${item}:
+                aligned vertically all ${nextItem}
+        latest-insights-rightside-insight-titletype-*:
+            css font-size is "14px"
+            css font-family contains "${SegoeFont}"
+            css font-weight is "700"
+            css color is "rgba(29, 102, 171, 1)"
+        latest-insights-rightside-insight-date-*,latest-insights-rightside-insight-author-*:
+            css font-size is "14px"
+            css font-family contains "${SegoeFont}"
+            css color is "rgba(126, 126, 126, 1)"
+        latest-insights-rightside-insight-title-*:
+            css font-size is "16px"
+            css font-family contains "${montregularFont}"
+            css color is "rgba(0, 0, 0, 1)"
+        more-stories-button:
+            height 52px
+            css background-color is "rgba(248, 144, 29, 1)"
+            css font-size is "14px"
+            css font-family contains "${SegoeFont}"
+
+        #right rail pods
+        right-rail-pods-InvestmentSolutions,right-rail-pods-video,right-rail-pods-brokercheck,right-rail-pods-OurNewsLetters:
+            width 262px
+        right-rail-pods-InvestmentSolutions:
+            height 225px
+        right-rail-pods-video:
+            height 184px
+        right-rail-pods-brokercheck:
+            height 84px
+        right-rail-pods-OurNewsLetters:
+            height 285px
+
+
+
+
+	
+		
