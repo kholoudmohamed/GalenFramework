@@ -26,13 +26,13 @@
 	latest-insights-rightside-insight-titletype-*   css     .smMarketTitle>a
 	latest-insights-rightside-insight-date-*        css     .smMarketDate
 	latest-insights-rightside-insight-title-*       css     .smMarketQute>span
-	latest-insights-rightside-insight-author-*      css     .smMarketBy
+	latest-insights-rightside-insight-author-*      css     .content>p>a[id*='_uxAuhtorNameLink']:not([style='display:none']
 	more-stories-button                             css     .btn-moreStories>button
 
     right-rail-pods-InvestmentSolutions             css     .investDiv.m-b
-    right-rail-pods-video                           css     [id*='ContentPlaceHolder1_']> div.sfContentBlock > div
-    right-rail-pods-brokercheck                     css     [id*='ContentPlaceHolder1_'] > div:nth-child(4)
-    right-rail-pods-OurNewsLetters                  css     [id*='ContentPlaceHolder1_'] > div:nth-child(5)
+    right-rail-pods-video                           css     [id*='ContentPlaceHolder1_'][id*='_Col02']> div.sfContentBlock > div
+    right-rail-pods-brokercheck                     css     [id*='ContentPlaceHolder1_'][id*='_Col02'] > div:nth-child(4)
+    right-rail-pods-OurNewsLetters                  css     [id*='ContentPlaceHolder1_'][id*='_Col02'] > div:nth-child(5)
 
 
 #Declaring common variables
@@ -53,7 +53,7 @@
 		aam-logo:
 			#Image comparison with %2 precision ratio
 			height 54px
-			width 164px
+			width 165px
 			image file aam-logo.png, error %5
 			
 		#header menu properties	
@@ -104,7 +104,7 @@
             css color is "rgba(0, 0, 0, 1)"
         featured-insights-image:
             height 287px
-            width 426px
+            width 455px
         featured-insights-image-tag:
             height 32px
             css background-color is "rgba(248, 144, 29, 1)"
@@ -131,7 +131,7 @@
             ${item}:
                 aligned vertically all ${nextItem}
         latest-insights-rightside-content-*:
-            width 300px
+            width 256px
         @forEach [latest-insights-rightside-content-*] as item, next as nextItem
             ${item}:
                 aligned vertically all ${nextItem}
@@ -156,7 +156,7 @@
 
         #right rail pods
         right-rail-pods-InvestmentSolutions,right-rail-pods-video,right-rail-pods-brokercheck,right-rail-pods-OurNewsLetters:
-            width 262px
+            width 285px
         right-rail-pods-InvestmentSolutions:
             height 225px
         right-rail-pods-video:

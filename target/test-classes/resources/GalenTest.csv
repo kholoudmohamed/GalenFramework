@@ -1,3 +1,0 @@
-testLayout,PageName,URL,Dimensions_Width,Dimension_Height,ResolutionCategory,Browser,TestCaseId
-,homepage,/publicsite/aamhome,1440,900,desktop,Chrome,1
-,homepage,/publicsite/aamhome,1920,1200,desktop,firefox,2
