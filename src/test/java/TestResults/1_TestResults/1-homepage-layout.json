@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "check homepage layout",
       "status" : "error",
-      "time" : 1525008279217,
+      "time" : 1525793312895,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
@@ -17,22 +17,20 @@
         "objects" : [ {
           "name" : "aam-logo",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 55
             },
             "name" : "height 54px",
-            "errors" : [ "\"aam-logo\" height is 16px instead of 54px" ],
             "highlight" : [ "aam-logo" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 56
             },
-            "name" : "width 164px",
-            "errors" : [ "\"aam-logo\" width is 16px instead of 164px" ],
+            "name" : "width 165px",
             "highlight" : [ "aam-logo" ]
           }, {
             "status" : "error",
@@ -41,7 +39,7 @@
               "lineNumber" : 57
             },
             "name" : "image file aam-logo.png, error %5",
-            "errors" : [ "Element does not look like \"src\\test\\java\\resources\\specs\\aam-logo.png\". There are 205 mismatching pixels but max allowed is 5" ],
+            "errors" : [ "Element does not look like \"src\\test\\java\\resources\\specs\\aam-logo.png\". There are 1124 mismatching pixels but max allowed is 5" ],
             "highlight" : [ "aam-logo" ],
             "imageComparison" : {
               "actualImage" : "layout-2-aam-logo-actual.png",
@@ -441,212 +439,191 @@
         }, {
           "name" : "nav-bar-links-texts-1",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"UITS\"",
-            "errors" : [ "\"nav-bar-links-texts-1\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-1" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-1\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-1" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-1\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-1" ]
           } ]
         }, {
           "name" : "nav-bar-links-texts-2",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"Mutual Funds\"",
-            "errors" : [ "\"nav-bar-links-texts-2\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-2" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-2\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-2" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-2\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-2" ]
           } ]
         }, {
           "name" : "nav-bar-links-texts-3",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"ETFs\"",
-            "errors" : [ "\"nav-bar-links-texts-3\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-3" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-3\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-3" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-3\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-3" ]
           } ]
         }, {
           "name" : "nav-bar-links-texts-4",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"Managed Accounts\"",
-            "errors" : [ "\"nav-bar-links-texts-4\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-4" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-4\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-4" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-4\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-4" ]
           } ]
         }, {
           "name" : "nav-bar-links-texts-5",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"Structured Products\"",
-            "errors" : [ "\"nav-bar-links-texts-5\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-5" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-5\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-5" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-5\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-5" ]
           } ]
         }, {
           "name" : "nav-bar-links-texts-6",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"Fixed Income\"",
-            "errors" : [ "\"nav-bar-links-texts-6\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-6" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-6\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-6" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-6\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-6" ]
           } ]
         }, {
           "name" : "nav-bar-links-texts-7",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"Advisor Dashboard\"",
-            "errors" : [ "\"nav-bar-links-texts-7\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-7" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 96
             },
             "name" : "css font-size is \"18px\"",
-            "errors" : [ "\"nav-bar-links-texts-7\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-7" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 97
             },
             "name" : "css font-family contains \"Segoe UI\"",
-            "errors" : [ "\"nav-bar-links-texts-7\" is not visible on page" ],
-            "highlight" : [ ]
+            "highlight" : [ "nav-bar-links-texts-7" ]
           } ]
         }, {
           "name" : "latest-insights-section-title",
@@ -694,13 +671,12 @@
             "name" : "height 287px",
             "highlight" : [ "featured-insights-image" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 107
             },
-            "name" : "width 426px",
-            "errors" : [ "\"featured-insights-image\" width is 459px instead of 426px" ],
+            "name" : "width 455px",
             "highlight" : [ "featured-insights-image" ]
           } ]
         }, {
@@ -960,13 +936,12 @@
         }, {
           "name" : "latest-insights-rightside-content-1",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-1\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-1" ]
           }, {
             "status" : "info",
@@ -980,13 +955,12 @@
         }, {
           "name" : "latest-insights-rightside-content-2",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-2\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-2" ]
           }, {
             "status" : "info",
@@ -1000,13 +974,12 @@
         }, {
           "name" : "latest-insights-rightside-content-3",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-3\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-3" ]
           }, {
             "status" : "info",
@@ -1020,13 +993,12 @@
         }, {
           "name" : "latest-insights-rightside-content-4",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-4\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-4" ]
           } ]
         }, {
@@ -1332,33 +1304,6 @@
             "highlight" : [ "latest-insights-rightside-insight-author-2" ]
           } ]
         }, {
-          "name" : "latest-insights-rightside-insight-author-3",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
-              "lineNumber" : 144
-            },
-            "name" : "css font-size is \"14px\"",
-            "highlight" : [ "latest-insights-rightside-insight-author-3" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
-              "lineNumber" : 145
-            },
-            "name" : "css font-family contains \"Segoe UI\"",
-            "highlight" : [ "latest-insights-rightside-insight-author-3" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
-              "lineNumber" : 146
-            },
-            "name" : "css color is \"rgba(126, 126, 126, 1)\"",
-            "highlight" : [ "latest-insights-rightside-insight-author-3" ]
-          } ]
-        }, {
           "name" : "latest-insights-rightside-insight-title-1",
           "specs" : [ {
             "status" : "info",
@@ -1504,13 +1449,12 @@
         }, {
           "name" : "right-rail-pods-InvestmentSolutions",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-InvestmentSolutions\" width is 285px instead of 262px" ],
+            "name" : "width 285px",
             "highlight" : [ "right-rail-pods-InvestmentSolutions" ]
           }, {
             "status" : "error",
@@ -1519,19 +1463,18 @@
               "lineNumber" : 161
             },
             "name" : "height 225px",
-            "errors" : [ "\"right-rail-pods-InvestmentSolutions\" height is 450px instead of 225px" ],
+            "errors" : [ "\"right-rail-pods-InvestmentSolutions\" height is 238px instead of 225px" ],
             "highlight" : [ "right-rail-pods-InvestmentSolutions" ]
           } ]
         }, {
           "name" : "right-rail-pods-video",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-video\" width is 285px instead of 262px" ],
+            "name" : "width 285px",
             "highlight" : [ "right-rail-pods-video" ]
           }, {
             "status" : "error",
@@ -1546,13 +1489,12 @@
         }, {
           "name" : "right-rail-pods-brokercheck",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-brokercheck\" width is 1170px instead of 262px" ],
+            "name" : "width 285px",
             "highlight" : [ "right-rail-pods-brokercheck" ]
           }, {
             "status" : "error",
@@ -1561,7 +1503,7 @@
               "lineNumber" : 165
             },
             "name" : "height 84px",
-            "errors" : [ "\"right-rail-pods-brokercheck\" height is 0px instead of 84px" ],
+            "errors" : [ "\"right-rail-pods-brokercheck\" height is 91px instead of 84px" ],
             "highlight" : [ "right-rail-pods-brokercheck" ]
           } ]
         }, {
@@ -1572,9 +1514,9 @@
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-OurNewsLetters\" width is 285px instead of 262px" ],
-            "highlight" : [ "right-rail-pods-OurNewsLetters" ]
+            "name" : "width 285px",
+            "errors" : [ "\"right-rail-pods-OurNewsLetters\" is absent on page" ],
+            "highlight" : [ ]
           }, {
             "status" : "error",
             "place" : {
@@ -1582,167 +1524,182 @@
               "lineNumber" : 167
             },
             "name" : "height 285px",
-            "errors" : [ "\"right-rail-pods-OurNewsLetters\" height is 277px instead of 285px" ],
-            "highlight" : [ "right-rail-pods-OurNewsLetters" ]
+            "errors" : [ "\"right-rail-pods-OurNewsLetters\" is absent on page" ],
+            "highlight" : [ ]
           } ]
         } ]
       } ],
       "objects" : {
         "market-insights-post-summary" : {
-          "area" : [ 168, 1110, 426, 43 ]
+          "area" : [ 168, 1297, 419, 65 ]
         },
         "right-rail-pods-brokercheck" : {
-          "area" : [ 118, 579, 1170, 0 ]
+          "area" : [ 988, 1219, 285, 91 ]
         },
         "market-insights-date" : {
-          "area" : [ 168, 964, 126, 21 ]
+          "area" : [ 168, 1151, 126, 21 ]
         },
         "right-rail-pods-InvestmentSolutions" : {
-          "area" : [ 988, 604, 285, 450 ]
+          "area" : [ 988, 791, 285, 238 ]
         },
         "aam-logo" : {
-          "area" : [ 133, 38, 16, 16 ]
+          "area" : [ 133, 34, 165, 54 ]
         },
         "latest-insights-rightside-content-2" : {
-          "area" : [ 717, 893, 256, 100 ]
+          "area" : [ 713, 1080, 256, 100 ]
         },
         "latest-insights-rightside-content-3" : {
-          "area" : [ 717, 1042, 256, 120 ]
+          "area" : [ 713, 1229, 256, 120 ]
         },
         "right-rail-pods-video" : {
-          "area" : [ 988, 1054, 285, 175 ]
+          "area" : [ 988, 1029, 285, 175 ]
         },
         "latest-insights-rightside-content-4" : {
-          "area" : [ 717, 1211, 256, 120 ]
-        },
-        "latest-insights-rightside-insight-author-3" : {
-          "area" : [ 722, 1311, 111, 19 ]
+          "area" : [ 713, 1398, 256, 100 ]
         },
         "latest-insights-rightside-insight-author-2" : {
-          "area" : [ 722, 973, 173, 19 ]
+          "area" : [ 718, 1160, 173, 19 ]
         },
         "latest-insights-rightside-insight-author-1" : {
-          "area" : [ 722, 804, 244, 39 ]
+          "area" : [ 718, 991, 244, 39 ]
         },
         "nav-menu-items-5" : {
-          "area" : [ 1116, 54, 93, 33 ]
+          "area" : [ 1091, 88, 106, 33 ]
         },
         "nav-menu-items-6" : {
-          "area" : [ 1209, 54, 78, 33 ]
+          "area" : [ 1197, 88, 91, 33 ]
         },
         "nav-menu-items-3" : {
-          "area" : [ 811, 54, 196, 33 ]
+          "area" : [ 785, 88, 197, 33 ]
         },
         "nav-menu-items-4" : {
-          "area" : [ 1007, 54, 109, 33 ]
+          "area" : [ 982, 88, 109, 33 ]
         },
         "nav-menu-items-1" : {
-          "area" : [ 547, 54, 70, 33 ]
+          "area" : [ 509, 88, 70, 33 ]
         },
         "nav-menu-items-2" : {
-          "area" : [ 617, 54, 194, 33 ]
+          "area" : [ 579, 88, 206, 33 ]
         },
         "latest-insights-rightside-content-1" : {
-          "area" : [ 717, 684, 256, 160 ]
+          "area" : [ 713, 871, 256, 160 ]
         },
         "header-login-logo" : {
-          "area" : [ 1246, 10, 24, 24 ]
+          "area" : [ 1231, 10, 24, 24 ]
         },
         "latest-insights-section-title" : {
-          "area" : [ 153, 604, 459, 31 ]
+          "area" : [ 153, 791, 455, 31 ]
         },
         "market-insights-tag-title" : {
-          "area" : [ 168, 922, 144, 31 ]
+          "area" : [ 168, 1109, 144, 31 ]
         },
-        "right-rail-pods-OurNewsLetters" : {
-          "area" : [ 988, 1350, 285, 277 ]
+        "nav-bar-links-texts-1" : {
+          "area" : [ 253, 692, 111, 25 ]
+        },
+        "nav-bar-links-texts-2" : {
+          "area" : [ 384, 694, 111, 50 ]
         },
         "latest-insights-rightside-imags-1" : {
-          "area" : [ 642, 645, 114, 114 ]
+          "area" : [ 638, 832, 114, 114 ]
+        },
+        "nav-bar-links-texts-5" : {
+          "area" : [ 777, 693, 111, 50 ]
+        },
+        "nav-bar-links-texts-6" : {
+          "area" : [ 908, 696, 111, 25 ]
+        },
+        "nav-bar-links-texts-3" : {
+          "area" : [ 515, 692, 111, 25 ]
+        },
+        "nav-bar-links-texts-4" : {
+          "area" : [ 646, 693, 111, 50 ]
         },
         "latest-insights-rightside-insight-title-3" : {
-          "area" : [ 722, 1102, 223, 59 ]
+          "area" : [ 718, 1289, 223, 59 ]
         },
         "latest-insights-rightside-insight-title-2" : {
-          "area" : [ 722, 953, 137, 19 ]
+          "area" : [ 718, 1140, 137, 19 ]
         },
         "header-texts-3" : {
-          "area" : [ 1193, 10, 44, 19 ]
+          "area" : [ 1178, 10, 45, 19 ]
+        },
+        "nav-bar-links-texts-7" : {
+          "area" : [ 1039, 693, 111, 50 ]
         },
         "latest-insights-rightside-insight-title-1" : {
-          "area" : [ 722, 744, 217, 59 ]
+          "area" : [ 718, 931, 217, 59 ]
         },
         "header-texts-1" : {
-          "area" : [ 848, 10, 67, 19 ]
+          "area" : [ 858, 10, 67, 19 ]
         },
         "latest-insights-rightside-imags-2" : {
-          "area" : [ 642, 854, 114, 114 ]
+          "area" : [ 638, 1041, 114, 114 ]
         },
         "header-texts-2" : {
-          "area" : [ 983, 10, 126, 19 ]
+          "area" : [ 985, 10, 126, 19 ]
         },
         "latest-insights-rightside-imags-3" : {
-          "area" : [ 642, 1003, 114, 114 ]
+          "area" : [ 638, 1190, 114, 114 ]
         },
         "latest-insights-rightside-imags-4" : {
-          "area" : [ 642, 1172, 114, 114 ]
+          "area" : [ 638, 1359, 114, 114 ]
         },
         "latest-insights-rightside-insight-title-4" : {
-          "area" : [ 722, 1271, 245, 39 ]
+          "area" : [ 718, 1458, 245, 39 ]
         },
         "featured-insights-image" : {
-          "area" : [ 153, 645, 459, 287 ]
+          "area" : [ 153, 832, 455, 287 ]
         },
         "latest-insights-rightside-insight-date-4" : {
-          "area" : [ 722, 1241, 103, 19 ]
+          "area" : [ 718, 1428, 103, 19 ]
         },
         "market-insights-post-author" : {
-          "area" : [ 168, 1056, 402, 43 ]
+          "area" : [ 168, 1243, 402, 43 ]
         },
         "header-dist-services-logo" : {
-          "area" : [ 958, 13, 18, 18 ]
+          "area" : [ 961, 13, 18, 18 ]
         },
         "latest-insights-rightside-insight-titletype-4" : {
-          "area" : [ 722, 1211, 127, 29 ]
+          "area" : [ 718, 1398, 127, 29 ]
         },
         "latest-insights-rightside-insight-titletype-2" : {
-          "area" : [ 722, 893, 88, 29 ]
+          "area" : [ 718, 1080, 88, 29 ]
         },
         "latest-insights-rightside-insight-titletype-3" : {
-          "area" : [ 722, 1042, 109, 29 ]
+          "area" : [ 718, 1229, 109, 29 ]
         },
         "latest-insights-rightside-insight-titletype-1" : {
-          "area" : [ 722, 684, 251, 29 ]
+          "area" : [ 718, 871, 251, 29 ]
         },
         "header-links-3" : {
-          "area" : [ 1193, 10, 80, 19 ]
+          "area" : [ 1178, 10, 81, 19 ]
         },
         "header-links-2" : {
-          "area" : [ 958, 10, 150, 19 ]
+          "area" : [ 961, 10, 150, 19 ]
         },
         "header-links-1" : {
-          "area" : [ 823, 10, 92, 19 ]
+          "area" : [ 833, 10, 92, 19 ]
         },
         "latest-insights-rightside-insight-date-1" : {
-          "area" : [ 722, 714, 110, 19 ]
+          "area" : [ 718, 901, 110, 19 ]
         },
         "latest-insights-rightside-insight-date-2" : {
-          "area" : [ 722, 923, 110, 19 ]
+          "area" : [ 718, 1110, 110, 19 ]
         },
         "latest-insights-rightside-insight-date-3" : {
-          "area" : [ 722, 1072, 85, 19 ]
+          "area" : [ 718, 1259, 85, 19 ]
         },
         "featured-insights-image-tag" : {
-          "area" : [ 153, 900, 104, 32 ]
+          "area" : [ 153, 1087, 104, 32 ]
         },
         "more-stories-button" : {
-          "area" : [ 477, 1341, 180, 52 ]
+          "area" : [ 473, 1508, 180, 52 ]
         },
         "market-insights-post-title" : {
-          "area" : [ 168, 997, 397, 47 ]
+          "area" : [ 168, 1184, 397, 47 ]
         },
         "header-contact-us-logo" : {
-          "area" : [ 823, 13, 18, 18 ]
+          "area" : [ 833, 13, 18, 18 ]
         }
       },
       "screenshot" : "layout-1-screenshot.png",

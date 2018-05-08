@@ -1,14 +1,14 @@
 {
   "tests" : [ {
     "name" : "homepage layout",
-    "startedAt" : 1525008305646,
-    "endedAt" : 1525008305646,
+    "startedAt" : 1525793358826,
+    "endedAt" : 1525793358826,
     "failed" : true,
     "statistic" : {
-      "passed" : 128,
-      "errors" : 41,
+      "passed" : 136,
+      "errors" : 30,
       "warnings" : 0,
-      "total" : 169
+      "total" : 166
     },
     "testId" : "1-homepage-layout",
     "duration" : 0,

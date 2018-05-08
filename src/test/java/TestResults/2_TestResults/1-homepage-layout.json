@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "check homepage layout",
       "status" : "error",
-      "time" : 1525008305646,
+      "time" : 1525793358826,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
@@ -17,13 +17,12 @@
         "objects" : [ {
           "name" : "aam-logo",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 55
             },
             "name" : "height 54px",
-            "errors" : [ "\"aam-logo\" height is 53px instead of 54px" ],
             "highlight" : [ "aam-logo" ]
           }, {
             "status" : "info",
@@ -31,7 +30,7 @@
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 56
             },
-            "name" : "width 164px",
+            "name" : "width 165px",
             "highlight" : [ "aam-logo" ]
           }, {
             "status" : "error",
@@ -40,7 +39,7 @@
               "lineNumber" : 57
             },
             "name" : "image file aam-logo.png, error %5",
-            "errors" : [ "Element does not look like \"src\\test\\java\\resources\\specs\\aam-logo.png\". There are 1420 mismatching pixels but max allowed is 5" ],
+            "errors" : [ "Element does not look like \"src\\test\\java\\resources\\specs\\aam-logo.png\". There are 1196 mismatching pixels but max allowed is 5" ],
             "highlight" : [ "aam-logo" ],
             "imageComparison" : {
               "actualImage" : "layout-6-aam-logo-actual.png",
@@ -524,13 +523,12 @@
         }, {
           "name" : "nav-bar-links-texts-4",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 95
             },
             "name" : "text is \"Managed Accounts\"",
-            "errors" : [ "\"nav-bar-links-texts-4\" text is \"Managed Account\" but should be \"Managed Accounts\"" ],
             "highlight" : [ "nav-bar-links-texts-4" ]
           }, {
             "status" : "info",
@@ -677,13 +675,12 @@
             "name" : "height 287px",
             "highlight" : [ "featured-insights-image" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 107
             },
-            "name" : "width 426px",
-            "errors" : [ "\"featured-insights-image\" width is 455px instead of 426px" ],
+            "name" : "width 455px",
             "highlight" : [ "featured-insights-image" ]
           } ]
         }, {
@@ -948,13 +945,12 @@
         }, {
           "name" : "latest-insights-rightside-content-1",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-1\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-1" ]
           }, {
             "status" : "info",
@@ -968,13 +964,12 @@
         }, {
           "name" : "latest-insights-rightside-content-2",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-2\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-2" ]
           }, {
             "status" : "info",
@@ -988,13 +983,12 @@
         }, {
           "name" : "latest-insights-rightside-content-3",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-3\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-3" ]
           }, {
             "status" : "info",
@@ -1008,13 +1002,12 @@
         }, {
           "name" : "latest-insights-rightside-content-4",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 134
             },
-            "name" : "width 300px",
-            "errors" : [ "\"latest-insights-rightside-content-4\" width is 256px instead of 300px" ],
+            "name" : "width 256px",
             "highlight" : [ "latest-insights-rightside-content-4" ]
           } ]
         }, {
@@ -1330,34 +1323,6 @@
             "highlight" : [ "latest-insights-rightside-insight-author-2" ]
           } ]
         }, {
-          "name" : "latest-insights-rightside-insight-author-3",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
-              "lineNumber" : 144
-            },
-            "name" : "css font-size is \"14px\"",
-            "highlight" : [ "latest-insights-rightside-insight-author-3" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
-              "lineNumber" : 145
-            },
-            "name" : "css font-family contains \"Segoe UI\"",
-            "highlight" : [ "latest-insights-rightside-insight-author-3" ]
-          }, {
-            "status" : "error",
-            "place" : {
-              "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
-              "lineNumber" : 146
-            },
-            "name" : "css color is \"rgba(126, 126, 126, 1)\"",
-            "errors" : [ "\"latest-insights-rightside-insight-author-3\" css property \"color\" is \"rgb(126, 126, 126)\" but should be \"rgba(126, 126, 126, 1)\"" ],
-            "highlight" : [ "latest-insights-rightside-insight-author-3" ]
-          } ]
-        }, {
           "name" : "latest-insights-rightside-insight-title-1",
           "specs" : [ {
             "status" : "info",
@@ -1508,13 +1473,12 @@
         }, {
           "name" : "right-rail-pods-InvestmentSolutions",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-InvestmentSolutions\" width is 285px instead of 262px" ],
+            "name" : "width 285px",
             "highlight" : [ "right-rail-pods-InvestmentSolutions" ]
           }, {
             "status" : "error",
@@ -1529,13 +1493,12 @@
         }, {
           "name" : "right-rail-pods-video",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-video\" width is 285px instead of 262px" ],
+            "name" : "width 285px",
             "highlight" : [ "right-rail-pods-video" ]
           }, {
             "status" : "error",
@@ -1550,13 +1513,12 @@
         }, {
           "name" : "right-rail-pods-brokercheck",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-brokercheck\" width is 1170px instead of 262px" ],
+            "name" : "width 285px",
             "highlight" : [ "right-rail-pods-brokercheck" ]
           }, {
             "status" : "error",
@@ -1565,7 +1527,7 @@
               "lineNumber" : 165
             },
             "name" : "height 84px",
-            "errors" : [ "\"right-rail-pods-brokercheck\" height is 0px instead of 84px" ],
+            "errors" : [ "\"right-rail-pods-brokercheck\" height is 91px instead of 84px" ],
             "highlight" : [ "right-rail-pods-brokercheck" ]
           } ]
         }, {
@@ -1576,9 +1538,9 @@
               "filePath" : "src\\test\\java\\resources\\specs\\homepage.gspec",
               "lineNumber" : 159
             },
-            "name" : "width 262px",
-            "errors" : [ "\"right-rail-pods-OurNewsLetters\" width is 285px instead of 262px" ],
-            "highlight" : [ "right-rail-pods-OurNewsLetters" ]
+            "name" : "width 285px",
+            "errors" : [ "\"right-rail-pods-OurNewsLetters\" is absent on page" ],
+            "highlight" : [ ]
           }, {
             "status" : "error",
             "place" : {
@@ -1586,188 +1548,182 @@
               "lineNumber" : 167
             },
             "name" : "height 285px",
-            "errors" : [ "\"right-rail-pods-OurNewsLetters\" height is 278px instead of 285px" ],
-            "highlight" : [ "right-rail-pods-OurNewsLetters" ]
+            "errors" : [ "\"right-rail-pods-OurNewsLetters\" is absent on page" ],
+            "highlight" : [ ]
           } ]
         } ]
       } ],
       "objects" : {
         "market-insights-post-summary" : {
-          "area" : [ 410, 1305, 391, 41 ]
+          "area" : [ 410, 1306, 391, 41 ]
         },
         "right-rail-pods-brokercheck" : {
-          "area" : [ 360, 767, 1170, 0 ]
+          "area" : [ 1230, 1221, 285, 91 ]
         },
         "market-insights-date" : {
-          "area" : [ 410, 1155, 117, 19 ]
+          "area" : [ 410, 1156, 117, 19 ]
         },
         "right-rail-pods-InvestmentSolutions" : {
-          "area" : [ 1230, 792, 285, 238 ]
+          "area" : [ 1230, 793, 285, 238 ]
         },
         "aam-logo" : {
-          "area" : [ 375, 34, 164, 53 ]
+          "area" : [ 375, 34, 165, 54 ]
         },
         "latest-insights-rightside-content-2" : {
-          "area" : [ 955, 1093, 256, 104 ]
+          "area" : [ 955, 1094, 256, 104 ]
         },
         "latest-insights-rightside-content-3" : {
-          "area" : [ 955, 1246, 256, 128 ]
+          "area" : [ 955, 1247, 256, 128 ]
         },
         "right-rail-pods-video" : {
-          "area" : [ 1230, 1031, 285, 174 ]
+          "area" : [ 1230, 1032, 285, 174 ]
         },
         "latest-insights-rightside-content-4" : {
-          "area" : [ 955, 1424, 256, 127 ]
-        },
-        "latest-insights-rightside-insight-author-3" : {
-          "area" : [ 960, 1532, 108, 17 ]
+          "area" : [ 955, 1425, 256, 105 ]
         },
         "latest-insights-rightside-insight-author-2" : {
-          "area" : [ 960, 1179, 167, 17 ]
+          "area" : [ 960, 1180, 167, 17 ]
         },
         "latest-insights-rightside-insight-author-1" : {
-          "area" : [ 960, 1004, 237, 38 ]
+          "area" : [ 960, 1005, 237, 38 ]
         },
         "nav-menu-items-5" : {
-          "area" : [ 1333, 88, 106, 33 ]
+          "area" : [ 1340, 88, 102, 33 ]
         },
         "nav-menu-items-6" : {
-          "area" : [ 1439, 88, 90, 33 ]
+          "area" : [ 1442, 88, 88, 33 ]
         },
         "nav-menu-items-3" : {
-          "area" : [ 1023, 88, 199, 33 ]
+          "area" : [ 1040, 88, 194, 33 ]
         },
         "nav-menu-items-4" : {
-          "area" : [ 1223, 88, 110, 33 ]
+          "area" : [ 1234, 88, 106, 33 ]
         },
         "nav-menu-items-1" : {
-          "area" : [ 739, 88, 71, 33 ]
+          "area" : [ 767, 88, 71, 33 ]
         },
         "nav-menu-items-2" : {
-          "area" : [ 810, 88, 213, 33 ]
+          "area" : [ 838, 88, 202, 33 ]
         },
         "latest-insights-rightside-content-1" : {
-          "area" : [ 955, 872, 256, 171 ]
+          "area" : [ 955, 873, 256, 171 ]
         },
         "header-login-logo" : {
-          "area" : [ 1488, 10, 24, 24 ]
+          "area" : [ 1473, 10, 24, 24 ]
         },
         "latest-insights-section-title" : {
-          "area" : [ 395, 792, 455, 31 ]
+          "area" : [ 395, 793, 455, 31 ]
         },
         "market-insights-tag-title" : {
-          "area" : [ 410, 1111, 143, 33 ]
+          "area" : [ 410, 1112, 143, 33 ]
         },
         "nav-bar-links-texts-1" : {
-          "area" : [ 495, 693, 111, 25 ]
+          "area" : [ 495, 694, 111, 25 ]
         },
         "nav-bar-links-texts-2" : {
-          "area" : [ 626, 694, 111, 51 ]
-        },
-        "right-rail-pods-OurNewsLetters" : {
-          "area" : [ 1230, 1326, 285, 278 ]
+          "area" : [ 626, 695, 111, 51 ]
         },
         "latest-insights-rightside-imags-1" : {
-          "area" : [ 880, 833, 114, 114 ]
+          "area" : [ 880, 834, 114, 114 ]
         },
         "nav-bar-links-texts-5" : {
-          "area" : [ 1019, 693, 111, 51 ]
+          "area" : [ 1019, 694, 111, 51 ]
         },
         "nav-bar-links-texts-6" : {
-          "area" : [ 1150, 696, 111, 25 ]
+          "area" : [ 1150, 697, 111, 25 ]
         },
         "nav-bar-links-texts-3" : {
-          "area" : [ 757, 692, 111, 25 ]
+          "area" : [ 757, 693, 111, 25 ]
         },
         "nav-bar-links-texts-4" : {
-          "area" : [ 888, 693, 111, 51 ]
+          "area" : [ 888, 694, 111, 51 ]
         },
         "latest-insights-rightside-insight-title-3" : {
-          "area" : [ 960, 1307, 222, 66 ]
+          "area" : [ 960, 1308, 222, 66 ]
         },
         "latest-insights-rightside-insight-title-2" : {
-          "area" : [ 960, 1154, 136, 21 ]
+          "area" : [ 960, 1155, 136, 21 ]
         },
         "header-texts-3" : {
-          "area" : [ 1433, 10, 46, 20 ]
+          "area" : [ 1418, 10, 46, 20 ]
         },
         "nav-bar-links-texts-7" : {
-          "area" : [ 1281, 693, 111, 51 ]
+          "area" : [ 1281, 694, 111, 51 ]
         },
         "latest-insights-rightside-insight-title-1" : {
-          "area" : [ 960, 933, 217, 66 ]
+          "area" : [ 960, 934, 217, 66 ]
         },
         "header-texts-1" : {
-          "area" : [ 1090, 10, 68, 20 ]
+          "area" : [ 1100, 10, 68, 20 ]
         },
         "latest-insights-rightside-imags-2" : {
-          "area" : [ 880, 1054, 114, 114 ]
+          "area" : [ 880, 1055, 114, 114 ]
         },
         "header-texts-2" : {
-          "area" : [ 1225, 10, 124, 20 ]
+          "area" : [ 1228, 10, 124, 20 ]
         },
         "latest-insights-rightside-imags-3" : {
-          "area" : [ 880, 1207, 114, 114 ]
+          "area" : [ 880, 1208, 114, 114 ]
         },
         "latest-insights-rightside-imags-4" : {
-          "area" : [ 880, 1385, 114, 114 ]
+          "area" : [ 880, 1386, 114, 114 ]
         },
         "latest-insights-rightside-insight-title-4" : {
-          "area" : [ 960, 1485, 245, 43 ]
+          "area" : [ 960, 1486, 245, 43 ]
         },
         "featured-insights-image" : {
-          "area" : [ 395, 834, 455, 287 ]
+          "area" : [ 395, 835, 455, 287 ]
         },
         "latest-insights-rightside-insight-date-4" : {
-          "area" : [ 960, 1454, 106, 20 ]
+          "area" : [ 960, 1455, 106, 20 ]
         },
         "market-insights-post-author" : {
-          "area" : [ 410, 1250, 386, 41 ]
+          "area" : [ 410, 1251, 386, 41 ]
         },
         "header-dist-services-logo" : {
-          "area" : [ 1200, 13, 18, 18 ]
+          "area" : [ 1203, 13, 18, 18 ]
         },
         "latest-insights-rightside-insight-titletype-4" : {
-          "area" : [ 960, 1424, 126, 30 ]
+          "area" : [ 960, 1425, 126, 30 ]
         },
         "latest-insights-rightside-insight-titletype-2" : {
-          "area" : [ 960, 1093, 85, 30 ]
+          "area" : [ 960, 1094, 85, 30 ]
         },
         "latest-insights-rightside-insight-titletype-3" : {
-          "area" : [ 960, 1246, 108, 30 ]
+          "area" : [ 960, 1247, 108, 30 ]
         },
         "latest-insights-rightside-insight-titletype-1" : {
-          "area" : [ 960, 872, 250, 30 ]
+          "area" : [ 960, 873, 250, 30 ]
         },
         "header-links-3" : {
-          "area" : [ 1433, 10, 82, 20 ]
+          "area" : [ 1418, 10, 82, 20 ]
         },
         "header-links-2" : {
-          "area" : [ 1200, 10, 149, 20 ]
+          "area" : [ 1203, 10, 149, 20 ]
         },
         "header-links-1" : {
-          "area" : [ 1065, 10, 93, 20 ]
+          "area" : [ 1075, 10, 93, 20 ]
         },
         "latest-insights-rightside-insight-date-1" : {
-          "area" : [ 960, 902, 113, 20 ]
+          "area" : [ 960, 903, 113, 20 ]
         },
         "latest-insights-rightside-insight-date-2" : {
-          "area" : [ 960, 1123, 113, 20 ]
+          "area" : [ 960, 1124, 113, 20 ]
         },
         "latest-insights-rightside-insight-date-3" : {
-          "area" : [ 960, 1276, 87, 20 ]
+          "area" : [ 960, 1277, 87, 20 ]
         },
         "featured-insights-image-tag" : {
-          "area" : [ 395, 1089, 104, 32 ]
+          "area" : [ 395, 1090, 104, 32 ]
         },
         "more-stories-button" : {
-          "area" : [ 715, 1561, 180, 52 ]
+          "area" : [ 715, 1540, 180, 52 ]
         },
         "market-insights-post-title" : {
-          "area" : [ 410, 1188, 397, 48 ]
+          "area" : [ 410, 1189, 397, 48 ]
         },
         "header-contact-us-logo" : {
-          "area" : [ 1065, 13, 18, 18 ]
+          "area" : [ 1075, 13, 18, 18 ]
         }
       },
       "screenshot" : "layout-5-screenshot.png",
