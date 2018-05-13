@@ -1,6 +1,9 @@
 #Declaring objects with css and xpath locators
 @objects
-	aam-logo						                css		[id*='uxMenu__'][id*='_AAMImage2']
+	aam-logo-desktop						        css		[id*='uxMenu__'][id*='_AAMImage2']
+    aam-logo-mobile						            css		[id*='uxMenu__'][id*='_AAMImage1']
+
+    mobile-nav-toggle                               id      wsnavtoggle
 	
 	#header objects
 	header-links-*					                css		div>div[id*='uxMenu__']>a
@@ -50,7 +53,7 @@
   #This is for Desktop
    @on desktop
 		#Logo properties
-		aam-logo:
+		aam-logo-desktop:
 			#Image comparison with %2 precision ratio
 			height 54px
 			width 165px
@@ -166,6 +169,12 @@
         right-rail-pods-OurNewsLetters:
             height 285px
 
+    #This is for Mobile
+   @on mobile
+        #Logo properties
+		aam-logo-mobile:
+			height 32px
+			width 97.766px
 
 
 
